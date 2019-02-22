@@ -10,5 +10,5 @@
 
 extern "C" XLIB void TestCtypes()
 {
-	printf("In C TestCtypes!\n");
+	printf("In C TestCtypes in linux!\n");
 }
