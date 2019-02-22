@@ -1,7 +1,7 @@
 #include<stdio.h>
-// c++ ÖÐ±àÒëc¸ñÊ½µÄº¯Êý£¬Èç¹ûÓÃCÓïÑÔ±àÒë¾Í²»ÐèÒª£¨ÎÄ¼þºó×ºÃû.c£©
-// __declspec(dllexport) ±íÊ¾º¯Êýµ¼³öµ½¿âÖÐ
-// ¿¿¿¿¿Windows WIN32 _WIN32(¿¿win32¿win64)
+// c++ ä¸­ç¼–è¯‘cæ ¼å¼çš„å‡½æ•°ï¼Œå¦‚æžœç”¨Cè¯­è¨€ç¼–è¯‘å°±ä¸éœ€è¦ï¼ˆæ–‡ä»¶åŽç¼€å.cï¼‰
+// __declspec(dllexport) è¡¨ç¤ºå‡½æ•°å¯¼å‡ºåˆ°åº“ä¸­
+// é é ç¸’indows WIN32 _WIN32(é win32ç¸²in64)
 #ifdef _WIN32
     #define XLIB __declspec(dllexport)
 #else 
