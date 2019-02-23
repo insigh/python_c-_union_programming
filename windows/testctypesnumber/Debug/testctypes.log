@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (testctypes.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  testtypesnumber.cpp
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\github\python_c-_union_programming\windows\testctypesnumber\Debug\testctypesnumber.dll) does not match the Linker's OutputFile property value (D:\github\python_c-_union_programming\windows\python_lesson_code\testctypesnumber.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+    正在创建库 D:\github\python_c-_union_programming\windows\testctypesnumber\Debug\testctypesnumber.lib 和对象 D:\github\python_c-_union_programming\windows\testctypesnumber\Debug\testctypesnumber.exp
+  testctypes.vcxproj -> D:\github\python_c-_union_programming\windows\testctypesnumber\Debug\testctypesnumber.dll
+  testctypes.vcxproj -> D:\github\python_c-_union_programming\windows\testctypesnumber\Debug\testctypesnumber.pdb (Full PDB)
